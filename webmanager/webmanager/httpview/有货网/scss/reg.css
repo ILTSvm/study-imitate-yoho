@@ -1,0 +1,130 @@
+.loginheader {
+  border-bottom: 2px solid #222222;
+}
+.loginheader .loginheader-box {
+  width: 1150px;
+  margin: 0 auto;
+  padding: 0 80px;
+  height: 66px;
+}
+.loginheader .loginheader-box .logo a {
+  float: left;
+  width: 176px;
+  background: url("../img/logo_e.png") no-repeat center center;
+  height: 66px;
+  text-indent: -9999px;
+}
+.loginheader .loginheader-box .headerlist {
+  height: 66px;
+  line-height: 66px;
+}
+.loginheader .loginheader-box .headerlist li {
+  float: left;
+  margin-left: 10px;
+}
+.loginheader .loginheader-box .headerlist .secondnavlist {
+  width: 80px;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+}
+.loginheader .loginheader-box .headerlist .secondnavlist .secondnav {
+  width: 80px;
+  height: 60px;
+  position: absolute;
+  left: 0;
+  top: 66px;
+}
+
+.content {
+  width: 1150px;
+  margin: 0 auto;
+  padding: 127px 0;
+}
+.content .leftpart {
+  width: 576px;
+  text-align: center;
+  border-right: 1px solid #ccc;
+  height: 420px;
+}
+.content .leftpart span {
+  display: inline-block;
+  height: 420px;
+  width: 0;
+  vertical-align: middle;
+}
+.content .leftpart img {
+  vertical-align: middle;
+}
+.content .rightpart {
+  width: 486px;
+  margin-left: 82px;
+  height: 420px;
+}
+.content .rightpart form input {
+  width: 270px;
+  height: 46px;
+  line-height: 46px;
+  display: block;
+  color: #ccc;
+  font-size: 20px;
+}
+.content .rightpart form #islogin {
+  display: inline;
+  width: 12px;
+  height: 12px;
+}
+.content .rightpart form p {
+  height: 24px;
+  font-size: 18px;
+}
+.content .rightpart form a {
+  color: #ccc;
+  font-size: 12px;
+}
+.content .rightpart form .red {
+  color: #ff1901;
+}
+.content .rightpart form .green {
+  color: #00ae00;
+}
+.content .rightpart form #btn {
+  background: #ff1901;
+  color: #fff;
+  font-size: 20px;
+  text-align: center;
+  border: 0;
+}
+.content .rightpart .ico li {
+  float: left;
+  margin: 0 7px;
+  height: 30px;
+  width: 30px;
+  background: url("../img/sprite.passport.png") no-repeat;
+}
+.content .rightpart .ico li a {
+  float: left;
+  height: 30px;
+  width: 30px;
+  text-indent: -9999px;
+}
+.content .rightpart .ico .ico0 {
+  background-position: 0px -81px;
+}
+.content .rightpart .ico .ico1 {
+  background-position: -32px -81px;
+}
+.content .rightpart .ico .ico2 {
+  background-position: -64px -81px;
+}
+.content .rightpart .ico .ico3 {
+  background-position: -96px -81px;
+}
+.content .rightpart .ico .ico4 {
+  background-position: -128px -81px;
+}
+.content .rightpart .ico .ico5 {
+  background-position: 0 -113px;
+}
+
+/*# sourceMappingURL=reg.css.map */

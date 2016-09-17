@@ -1,0 +1,549 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>详情页</title>
+	<link rel="stylesheet" href="css/details.css">
+    <link rel="stylesheet" href="scss/public.css">
+	<script src="js/jquery-3.1.0.js"></script>
+	<script src="js/detalis.js"></script>
+</head>
+<body>
+
+    <div class = "header-box">
+        <div class = "htop">
+            <div class="hleft left">YOHO!BUY有货</div>
+            <ul class="hright right clear">
+                <li id = "user"><a href="login.html">[登录]</a><a href = "reg.html">[注册]</a></li>
+                <li><a href="">My有货</a></li>
+                <li><a href="">我的订单</a></li>
+                <li><a href="">我的收藏</a></li>
+                <li><a href="">消息</a></li>
+                <li><a href="">手机版</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class = "container-header clear">
+        <ul class = "lnav left clear">
+            <li><a href="index.html" class = "active"><span>男生</span>BOYS</a></li>
+            <li><a href=""><span>女生</span>GIRLS</a></li>
+            <li><a href=""><span>潮童</span>KIDS</a></li>
+            <li><a href=""><span>创意生活</span>LIFE STYLE</a></li>
+        </ul>
+        <div class ="logo left">
+            <h1><a href="index.html">有货网</a></h1>
+        </div>
+        <div class ="search-box left">
+            <div class="search">
+                <div class="search-in">
+                    <form action="">
+                        <input type="text">
+                        <button class="search-btn" value = ""></button>
+                    </form>
+                </div>
+            </div>
+            <div class="shopcar">
+                <a href="shopcar.html">
+                    <span class="iconfont "></span>
+                    <span class="goods-num-tip">0</span>
+                </a>
+                <div class="mini-cart-wrapper"><div class="empty-cart"><h3>您的购物车暂无商品</h3></div></div>
+            </div>
+        </div>
+    </div>
+    <div class = "container-nav">
+        <ul class="navlist clear">
+            <li><a href="">新品到着</a></li>
+            <li><a href="">品牌一览</a></li>
+            <li><a href="">服饰</a></li>
+            <li><a href="">鞋履</a></li>
+            <li><a href="">包袋</a></li>
+            <li><a href="">配饰·其他</a></li>
+            <li><a href="">领券中心</a></li>
+            <li><a href="">逛</a></li>
+            <li><a href="">SALE</a></li>
+        </ul>
+    </div>
+
+	<div class="detail_page">
+		<div class="brand_banner">
+			<div class="center-content clear">
+                <a class="pull_left" href="javascript:;">
+                    <img src="img/det_b1.jpg">
+                </a>
+                <div class="pull_right">
+                    <a class="home" href="javascript:;" title="LIGHTNING BEAR"></a>
+                    <a class="fa" href="javascript:;" title="LIGHTNING BEAR"></a>
+                </div>
+            </div>
+		</div>
+		<div class="center-content clear">
+			<p class="path_nav">
+	            <a href="index.html" title="YOHO!有货">BOYS首页></a>
+	            <a href="javascript:;" title="上衣">上衣></a>
+	            <a href="javascript:;" title="T恤">T恤></a>
+	            <span class="last" title="" id = "pagename">Life·After Life 动物刺绣口袋T恤</span>
+	        </p>
+			<div class="main clear">
+				<div class="d_left imgs clear">
+					<div class="img">
+						<img src="" alt="">
+					</div>
+					<div id="thumbs" class="thumbs">
+					</div>
+					<div class="img_small">
+					</div>
+					<div class="mark_img">
+						
+					</div>
+					<div class="img_big">
+						<div class="img_big_b">
+                            <img  src="" alt="">
+                        </div>
+					</div>
+				</div>
+				<div class="d_right">
+					<p class="name">Life·After Life 动物刺绣口袋T恤</p>
+					<a class="brand-name" href="">Life·After Life</a>
+					<p class="market-price">
+                        <span class="title">市场价：</span>
+                        <span class="price">¥128.00</span>
+                    </p>
+                    <p class="vip-price">
+                        登录后即可查看vip价格
+                        <a class="login-url" href="login.html">立即登录</a>
+                    </p>
+                    <ul class="activity">
+                        <li>
+                            <span class="ac-type">加价购</span>
+                            <span class="ac-des">全场¥79加价购</span>
+                        </li>
+                        <li>
+                            <span class="ac-type">加价购</span>
+                            <span class="ac-des">全场¥59加价购</span>
+                        </li>
+                        <li>
+                            <span class="ac-type">加价购</span>
+                            <span class="ac-des">全场¥39加价购</span>
+                        </li>
+                    </ul>
+                    <div class="trade">
+                    	<div class="type_chose">
+                    		<div class="chose-color row clear">
+                                <span class="title">选颜色：</span>
+                                <ul class="colors clear">
+                                    <li class="focus">
+                                        <img src="img/des1_1.jpg" id="0">
+                                    </li>
+                                    <li>
+                                        <img src="img/des2_1.jpg" id="1">
+                                    </li>
+                                    <li>
+                                        <img src="img/des3_1.jpg" id="2">
+                                    </li>
+                                    <li>
+                                        <img src="img/des4_1.jpg" id="3">
+                                    </li>
+                                    <li>
+                                        <img src="img/des5_1.jpg" id="4">
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="chose-size row clear">
+                                <span class="title pull-left">
+                                    选尺码：
+                                </span>
+                                <div id="sizes" class="size-wrapper pull-left">
+                                    <ul class="sizer">
+                                        <li id="0">S</li>
+                                        <li id="1">M</li>
+                                        <li id="2">L</li>
+                                        <li id="3">XL</li>
+                                        <li id="4">XXL</li>
+                                        <li id="5">XXXL</li>
+                                        <li id="6">XXXXL</li>
+                                        <span class="size-ruler"></span>
+                                        <span class="size-warn">请选择尺寸</span>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="chose-count row clear">
+                                <span class="title ">选数量：</span>
+                                <div class="num-wraper  clear">
+                                    <span id="num" class="num">1</span>
+                                    <span class="minus-plus">
+                                        <a id="plus-num" class="plus">∧</a>
+                                        <a id="minus-num" class="minus">∨</a>
+                                    </span>
+                                </div>
+                            </div>
+                            <p class="row">
+                                <span id="addcart" class="buy_btn">添加到购物车
+                                </span>
+                                <span id="collect_product" class="collect_product">收藏商品
+                                </span>
+                            </p>
+                            <div class="share">
+                            	<span class="title">分享商品：</span>
+                            	<span class="shares">
+                            		<i class="weibo"></i>
+                            		<i class="weixin"></i>
+                            		<i class="tweibo"></i>
+                            		<i class="qzone"></i>
+                            		<i class="qq"></i>
+                            		<i class="renren"></i>
+                            		<i class="douban"></i>
+                            	</span>
+                            </div>
+                    	</div>
+                        <div class="balance">
+                            <p class="success-tip">商品已成功添加到购物车！</p>
+                            <p class="cart-total">购物车一共有<span class="cart-num"></span>件商品</p>
+                            <p class="balance-btns">
+                                <a class="go_cart" href="shopcar.html">去购物车结算  ></a>
+                                <span id="keep-shopping" class="keep-shopping">
+                                    继续购物
+                                </span>
+                            </p>
+                        </div>
+                    </div>
+				</div>
+				
+			</div>
+			<div class="others">
+				<div class="description">
+                    <p class="block-title">
+                        <span class="title cur">商品信息 DESCRIPTION</span>
+                        <span class="sep">|</span>
+                        <span class="title ">材质洗涤 MATERIALS</span>
+                    </p>
+                    <div class="description-content">
+                        <ul class="basic clear">
+                            <li>
+                                编号: 51044507
+                            </li>
+                            <li>
+                                颜色: 蓝色
+                            </li>
+                            <li>
+                                性别: 通用
+                            </li>
+                            <li>
+                                领型: 圆领
+                            </li>
+                            <li>
+                                衣长: 适中
+                            </li>
+                            <li>
+                                袖长: 短袖
+                            </li>
+                            <li>
+                                版型: 正常
+                            </li>
+                            <li>
+                                厚度: 中
+                            </li>
+                            <li>
+                                经典款型: 图案T恤
+                            </li>
+                            <li>
+                                袖型: 正常
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="material-content">
+                        <ul class="material-detail">
+                            <li class="clear">
+                                <img src="img/metail.jpg">
+                                <p class="name">棉<br>cotton</p>
+                                <p class="text">用各种洗涤剂，可手洗机洗，但不宜氯漂，宜阴干，避免曝晒，以免深色衣物褪色，在日光下晾晒时，将里面朝外。浸泡时间不能太长，避免褪色，深色与浅色衣服最好请分开洗涤，避免染色。棉质商品一般易皱、易缩水、易变形购买时请注意。</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="size">
+                	<p class="block-title">
+                        <span class="title cur">尺码信息 SIZE INFO</span>
+                    </p>
+                    <table class="size-table">
+	                    <thead>
+	                    <tr>
+	                            <th>吊牌尺码</th>
+	                            <th>后衣长</th>
+	                            <th>前衣长</th>
+	                            <th>袖长</th>
+	                            <th>胸围</th>
+	                            <th>肩宽</th>
+	                    </tr>
+	                    </thead>
+	                    <tbody>
+	                        <tr>
+                                <td>S</td>
+                                <td>68</td>
+                                <td>68</td>
+                                <td>19</td>
+                                <td>92</td>
+                                <td>46</td>
+	                        </tr>
+	                        <tr>
+                                <td>M</td>
+                                <td>70</td>
+                                <td>70</td>
+                                <td>20</td>
+                                <td>100</td>
+                                <td>48</td>
+	                        </tr>
+	                        <tr>
+                                <td>L</td>
+                                <td>71</td>
+                                <td>71</td>
+                                <td>21</td>
+                                <td>104</td>
+                                <td>50</td>
+	                        </tr>
+	                        <tr>
+                                <td>XL</td>
+                                <td>74</td>
+                                <td>74</td>
+                                <td>22</td>
+                                <td>116</td>
+                                <td>52</td>
+	                        </tr>
+	                        <tr>
+                                <td>XXL</td>
+                                <td>75</td>
+                                <td>75</td>
+                                <td>23</td>
+                                <td>124</td>
+                                <td>54</td>
+	                        </tr>
+	                        <tr>
+	                                <td>XXXL</td>
+	                                <td>77</td>
+	                                <td>77</td>
+	                                <td>23</td>
+	                                <td>134</td>
+	                                <td>56</td>
+	                        </tr>
+	                        <tr>
+	                                <td>XXXXL</td>
+	                                <td>77</td>
+	                                <td>77</td>
+	                                <td>24</td>
+	                                <td>146</td>
+	                                <td>58</td>
+	                        </tr>
+	                    </tbody>
+                    </table>
+                    <p class="size-tip">
+                        ※ 以上尺寸为实物人工测量，因测量方式不同会有1-2CM误差，相关数据仅作参考，以收到实物为准。 单位：CM
+                    </p>
+                    <p class="size-tip">
+                        ※ 参考尺码因衣服版型、剪裁不同会有误差，仅供参考
+                    </p>
+                    <img class="size_img" src="http://static.yohobuy.com/images/1.jpg">
+                </div>
+                <div class="details_u">
+                	<p class="block-title">
+                        <span class="title cur">商品详情 DETAILS</span>
+                    </p>
+                    <div class="details_html">
+                        Lightning Bear特别推出美国队长系列，经典独特的美国队长印花图腾，采用纯棉的材质，更加质感有型，作为粉丝的你不容错过！14年第一变就是Captain America4月4日全球首映让我们一起穿着限量队长tee去看电影吧<br>
+                        <p>
+							<img border="0" class="lazy" src="http://img02.static.yohobuy.com/product/2015/05/05/17/021e652971b32f661e68149854f0da43a8.jpg" data-original="http://img02.static.yohobuy.com/product/2015/05/05/17/021e652971b32f661e68149854f0da43a8.jpg" style="display: inline;">
+							<img border="0" src="http://img02.static.yohobuy.com/product/2015/05/05/17/02e2081c575c88c58ba6e85e35e786760b.jpg">
+							<img border="0" src="http://img02.static.yohobuy.com/product/2015/05/05/17/0200f21ae809a8b048ff49d8d791e2fd5c.jpg">
+							<img border="0" src="http://img01.static.yohobuy.com/product/2015/04/27/14/01c64c5f02a5936ca41c1abea2990e3f6f.jpg">
+						</p>
+						<p>
+							<img border="0" src="http://img01.static.yohobuy.com/product/2015/05/13/16/01cb9bb1b92a7514e8dbf41445a49d0504.jpg">
+						</p>
+						<p>
+							<img border="0" src="http://img02.static.yohobuy.com/product/2015/05/13/17/0218827a5cf315eb2724753b2561db1fd0.jpg">
+						</p>
+						<p>
+							<img border="0" src="http://img01.static.yohobuy.com/product/2015/05/13/17/01545e9570a1332e77c265ad8fe526a4a3.jpg">
+						</p>
+                    </div>
+                </div>
+                <div class="consult">
+                	<p class="block-title">
+                        <span class="title cur">顾客咨询（<em class="consult-num">30</em>）</span>
+                        <span class="sep">|</span>
+                        <span class="title">购买评价（<em class="comment-num">206</em>）</span>
+                    </p>
+                    <div class="consults content_c">
+                    	<h2>顾客咨询（<span class="consult-num">30</span>）</h2>
+                    	<ul id="consults_ul">
+                    		<li>
+					            <div class="user-info clear">
+					                <img class="user-avatar" src="http://static.yohobuy.com/images/v3/boy.jpg">
+					                <p>
+					                    <span class="question">身高158，体重120穿M码可以么？</span>
+					                    <br>
+					                    <span class="date">2016-07-24 18:16:30</span>
+					                </p>
+					            </div>
+					            <p class="consult_p">向您推荐M号供参考,由于版型和个人穿衣风格不同，建议您参照此款商品“尺码信息”。来Yoho!Buy有货，潮流购物逛不停，祝您购物愉快！</p>
+					        </li>
+                    	</ul>
+                    	<p class="more-wrap">
+                            <span class="load-more">加载更多∨</span>
+                        </p>
+                        <p class="btn-wrap">
+                            <span id="consults-btn" class="btn">我要咨询</span>
+                        </p>
+                    </div>
+                </div>
+                <div class="after_service">
+                	<p id="after-service-switch" class="after-service-switch">
+                        售后服务
+                        <span class="after_service_2"></span>
+                    </p>
+                    <div class="after_ser_c">
+                    	<div class="block-title">
+                            <span class="title cur">售后服务 AFTER SERVICE</span>
+                        </div>
+                        <div class="img-1"></div>
+                        <div class="img-2"></div>
+                        <div class="text">
+                            <h4 style="margin-top:0">退换货承诺</h4>
+                            <p>
+                                自您签收商品7日内可以退货，15日内可以换货，在商品不影响二次销售的情况下，YOHO!BUY 有货将为您办理退换货服务，请在网站提交"退换货"申请。需要说明的是：非质量问题的退换货，来回运费由您承担。</p>
+                            <h4>退换货方式</h4>
+                            <p>
+                                针对国内大中型城市，YOHO!BUY 有货开通了<span class="orange">"上门换货"</span>服务，上门服务区域及费用请联系客服中心；若您所在的区域不在上门换货范围内，请您选择普通快递将商品、内包装、赠品及发货单等一并寄回。质量问题的退换货，目前不支持运费到付款业务，请您先垫付运费寄回。如需退换货，请致电客服电话：400-889-9646。
+                            </p>
+                            <h4>退换货邮寄地址</h4>
+                            <p>
+                                南京市江宁区江宁经济技术开发区苏源大道87号YOHO!BUY 有货物流中心东一楼 收件人：YOHO!BUY 有货 邮编：211106
+                                <br>
+                                YOHO! 有货客服热线：400-889-9646　　客服邮箱：<a href="javascript:;">service@yoho.cn</a>
+                                <br>
+                                有疑问请联系我们，我们将为您提供最优质的产品和服务。
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="service"></div>
+                <div class="last_walk">
+                	<p class="block-title">
+                        <span class="title cur">最近浏览 RECENT REVIEW</span>
+                    </p>
+                    <div id="latest-walk-goods" class="goods clear">
+                        <div class="good">
+                            <a href="javascript:;">
+                                <img src="img/d_main.jpg">
+                            </a>
+                            <a class="name" href="javascript:;">Lightning Bear 美国队长特别款-熊人款TEE</a>
+                            <p class="price">
+                                <span class="market-price"></span>
+                                <span class="sale-price">¥128</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+			</div>
+
+        </div>
+
+	</div>
+
+    <div class="container-footer">
+        <div class="footer">
+            <div class = "ftop">
+                <ul class = "fico left">
+                    <li class = "iconfont"><i>&#xe632;</i><span>100%</span>品牌正品</li>
+                    <li class = "iconfont"><i>&#xe609;</i><span>七天</span>无理由退货</li>
+                    <li class = "iconfont"><i>&#xe64a;</i><span>便捷</span><a href = "">在线客服</a></li>
+                </ul>
+            </div>
+            <div class="fmiddle clear">
+                <dl>
+                    <dt>新手指南</dt>
+                    <dd><a href="">注册登录</a></dd>
+                    <dd><a href="">选购商品</a></dd>
+                    <dd><a href="">订单支付</a></dd>
+                    <dd><a href="">收货退款</a></dd>
+                </dl>
+                <dl>
+                    <dt>新手指南</dt>
+                    <dd><a href="">注册登录</a></dd>
+                    <dd><a href="">选购商品</a></dd>
+                    <dd><a href="">订单支付</a></dd>
+                    <dd><a href="">收货退款</a></dd>
+                </dl>
+                <dl>
+                    <dt>新手指南</dt>
+                    <dd><a href="">注册登录</a></dd>
+                    <dd><a href="">选购商品</a></dd>
+                    <dd><a href="">订单支付</a></dd>
+                    <dd><a href="">收货退款</a></dd>
+                </dl>
+                <dl>
+                    <dt>新手指南</dt>
+                    <dd><a href="">注册登录</a></dd>
+                    <dd><a href="">选购商品</a></dd>
+                    <dd><a href="">订单支付</a></dd>
+                    <dd><a href="">收货退款</a></dd>
+                </dl>
+                <dl>
+                    <dt>新手指南</dt>
+                    <dd><a href="">注册登录</a></dd>
+                    <dd><a href="">选购商品</a></dd>
+                    <dd><a href="">订单支付</a></dd>
+                    <dd><a href="">收货退款</a></dd>
+                </dl>
+                <dl>
+                    <dt>新手指南</dt>
+                    <dd><a href="">注册登录</a></dd>
+                    <dd><a href="">选购商品</a></dd>
+                    <dd><a href="">订单支付</a></dd>
+                    <dd><a href="">收货退款</a></dd>
+                </dl>
+                <dl class = "last">
+                    <dt>新手指南</dt>
+                    <dd><a href="">注册登录</a></dd>
+                    <dd><a href="">选购商品</a></dd>
+                    <dd><a href="">订单支付</a></dd>
+                    <dd><a href="">收货退款</a></dd>
+                </dl>
+            </div>
+            <div class="fbottom">
+                <div class="center-content clear">
+                    <div class="leftimg">
+                        <a href="javascript:;">
+                            <img src="img/credit-flag3.png">
+                        </a>
+                        <a href="javascript:;">
+                            <img src="img/isc2.png">
+                        </a>
+                    </div>
+                    <div class="about_us">
+                        <p>
+                            <a href="javascript:;">返回首页</a>
+                            <span>|</span>
+                            <a href="javascript:;">YOHO!BUY 有货</a>
+                            <span>|</span>
+                            <a href="javascript:;">新力传媒</a>
+                            <span>|</span>
+                            <a href="javascript:;">联系我们</a>
+                            <span>|</span>
+                            <a href="javascript:;">商家入驻</a>
+                            <span>|</span>
+                            <a href="javascript:;">隐私条款</a>
+                            <span>|</span>
+                            <a href="javascript:;">友情链接</a>
+                        </p>
+                        <p>
+                            CopyRight © 2007-2016 南京新与力文化传播有限公司
+                            <a class="rbg6" href="javascript:;">苏ICP备09011225号</a>
+                            NewPower Co. 版权所有 经营许可证编号：苏B2-20120395
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

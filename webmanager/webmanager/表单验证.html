@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <h1>注册</h1>
+    <form method="get">
+        账号：<input type = "text" id = "regtxt"><br>
+        密码：<input type = "password" id = "regpassword1"><br>
+        确认密码：<input type = "password" id = "regpassword2"><br>
+        <input type = "submit" id = "reg" value="注册"/>
+    </form>
+    <hr style = "width:100%; height :1px; border:1px solid #CCCCCC">
+    <h1>登录</h1>
+    <form action="">
+        账号:<input type = "text" id = "logintxt"/><br>
+        密码:<input type = "password" id = "loginpassword"/><br>
+        <input type = "submit" id = "login" value = "登录">
+    </form>
+
+</body>
+<script>
+
+    var reg = document.getElementById("reg");
+    var user = document.getElementById("logintxt");
+    var password = document.getElementById("loginpassword");
+    var login = document.getElementById("login");
+    var reguser  = document.getElementById("regtxt");
+    reguser.onblur = function () {
+        var username = reguser.value;
+        var reg =/^[a-z0-9_-]{3,16}$/;
+        var istrue = reg.test(username);
+        if(!istrue){
+            alert("用户名不合法");
+        }else{
+//            getAjax("get",username);
+        }
+    }
+    reg.onclick = function () {
+        var reguser  = document.getElementById("regtxt");
+        var regpassword1 = document.getElementById("regpassword1");
+        var regpassword2 = document.getElementById("regpassword2");
+        var username = reguser.value;
+        var password1 = regpassword1.value.trim();
+        var password2 = regpassword2.value.trim();
+        var scr = document.createElement("script");
+        scr.src = "http://10.9.163.115:8081/user/registerGet?name="+username+"&password="+password1+"&callback=fn";
+        document.body.appendChild(scr);
+//        getAjax("post",username,password1);
+        return false;
+    }
+    function fn(a){
+        if(a==1){
+            alert("注册成功");
+        }else{
+            alert("注册失败");
+        }
+    }
+//    function getAjax(method,username,password){
+//        var xhr;
+//        if(window.XMLHttpRequest){
+//            xhr = new XMLHttpRequest();
+//        }else{
+//            xhr = new ActiveXObject();
+//        }
+//        xhr.onreadystatechange = function () {
+//            if(xhr.readyState==4){
+//                if(xhr.status==200){
+//                    var result = eval("("+xhr.responseText+")");
+//
+//                    if(result==1){
+//                        alert("");
+//                    }
+//                }else{
+//
+//                }
+//            }
+//        }
+//        if(method == "get"){
+//            xhr.open("get","http://localhost:8080/user/CheckUserNameGet?username="+username,true);
+//            xhr.send();
+//        }else{
+//            xhr.open("post","http://localhost:8080/user/register",true);
+//            xhr.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+//            xhr.send("name="+username+"&password="+password);
+//        }
+//
+//    }
+
+</script>
+</html>

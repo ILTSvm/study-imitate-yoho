@@ -1,0 +1,132 @@
+$width:1150px;
+$header-box-height:66px;
+$secondnav-width:80px;
+.loginheader {
+  border-bottom: 2px solid #222222;
+  .loginheader-box {
+    width: $width;
+    margin: 0 auto;
+    padding: 0 80px;
+    height: $header-box-height;
+    .logo {
+      a {
+        float: left;
+        width: 176px;
+        background: url("../img/logo_e.png") no-repeat center center;
+        height: $header-box-height;
+        text-indent: -9999px;
+      }
+    }
+    .headerlist {
+      height: $header-box-height;
+      line-height: $header-box-height;
+      li {
+        float: left;
+        margin-left:10px;
+      }
+      .secondnavlist {
+        width: $secondnav-width;
+        position: relative;
+        overflow: hidden;
+        text-align: center;
+        .secondnav {
+          width: $secondnav-width;
+          height: 60px;
+          position: absolute;
+          left: 0;
+          top: 66px;
+        }
+      }
+    }
+  }
+}
+//content
+$contentheight :420px;
+.content{
+  width:$width;
+  margin:0 auto;
+  padding:127px 0;
+  .leftpart{
+    width:576px;
+    text-align:center;
+    border-right:1px solid #ccc;
+    height:$contentheight;
+    span{
+      display: inline-block;
+      height: $contentheight;
+      width:0;
+      vertical-align: middle;
+    }
+    img{
+      vertical-align: middle;
+    }
+  }
+  .rightpart{
+    width:486px;
+    margin-left:82px;
+    height:$contentheight;
+    form{
+      input{
+        width:270px;
+        height:46px;
+        line-height:46px;
+        display: block;
+        color:#ccc;
+        font-size:20px;
+      }
+      #islogin{
+        display: inline;
+        width:12px;
+        height:12px;
+      }
+      p{
+        height:24px;
+        font-size:18px;
+      }
+      a{
+        color:#ccc;
+        font-size:12px;
+      }
+      .red{
+        color:#ff1901;
+      }
+      .green{
+        color:#00ae00;
+      }
+      #btn{
+        background: #ff1901;
+        color:#fff;
+        font-size:20px;
+        text-align: center;
+        border:0;
+      }
+    }
+    .ico{
+      li{
+        float:left;
+        margin:0 7px;
+        height:30px;
+        width:30px;
+        background:url("../img/sprite.passport.png") no-repeat;
+        a{
+          float:left;
+          height:30px;
+          width:30px;
+          text-indent: -9999px;
+          //margin:0;
+        }
+      }
+      @for $i from 0 to 6{
+        @if $i==5{
+          .ico#{$i}{
+            background-position: 0 -113px;
+          }
+        }@else{
+          .ico#{$i}{
+            background-position: -$i*32px -81px;
+          }
+        }
+      }
+    }
+  }
+}
