@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<script src = "js/jquery-3.1.0.js"></script>
+		<script src = "js/wel.js"></script>
+		<link rel  = "stylesheet" style = "text/css" href = "css/style.css">
+		<link rel  = "stylesheet" style = "text/css" href = "css/wel.css">
+
+	</head>
+	<body>
+		<div class = "tablebox">
+			<div class = "search">
+				<form>
+					<img src = "img/seacth.jpg"/>
+					<span>搜索</span>
+					<i>商品关键字：</i>
+					<input class = "txt" type = "text">
+					<i>商品类型</i>
+					<select>
+						<option>--请选择--</option>
+						<option>上衣</option>
+						<option>裤子</option>
+						<option>帽子</option>
+						<option>鞋子</option>
+						<option>饰品</option>
+					</select>
+					<input class = "btn" type = "submit" value = "查询"/>
+				</form>
+			</div>
+			<div class = "tit" id = "table-before">
+				<a href = "add.html" class = "add" id = "add"></a><a href = "javascript:void(0)" class = "sub" id = "sub"></a>
+			</div>
+			<!--<table id = "tab" class = "show">-->
+				<!--<tr>-->
+					<!--<th><input type = "checkbox" name = "all" id="all">全选</th>-->
+					<!--<th>商品名称</th>-->
+					<!--<th>上市日期</th>-->
+					<!--<th>商品产地</th>-->
+					<!--<th>价格</th>-->
+					<!--<th>是否有库存</th>-->
+					<!--<th>库存量</th>-->
+					<!--<th>下载商品</th>-->
+				<!--</tr>-->
+			<!--</table>-->
+			<div class = "page left"><span>共有<i>20</i>条数据，当前第<i>1</i>页</span></div>
+			<div class = "pagelist right">
+				<a href = "javascript:;" id = "firstpage">首页</a>
+                <a href = "javascript:;" id = "prepage">上一页</a>
+				<a href = "javascript:;" id = "nextpage">下一页</a>
+				<a href = "javascript:;" id = "lastpage">尾页</a>
+			</div>
+		</div>
+	</body>
+</html>

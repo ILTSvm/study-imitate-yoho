@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>创建产品</title>
+    <script src="../Scripts/jquery-1.8.2.min.js"></script>
+</head>
+<body>
+<div>
+    <script>
+      window.onload = function () {
+          for(var i = 1;i<=9;i++){
+              var pName= "青春必选·时尚活力V领T恤"+i;
+              var pId="00"+i;
+              var pPrice=10*i;
+              var pImgsrc=i+".jpg";
+              var pCount=Math.floor(Math.random()*300);
+              var pLocate = "北京";
+              var pdate = "2016/09/07";
+              var dataJsonOb={
+                  "id":pId,
+                  "name":pName,
+                  "price":pPrice,
+                  "imgSrc":pImgsrc,
+                  "count":pCount,
+                  "from":pLocate,
+                  "date":pdate
+              }
+              var dataJsonStr=JSON.stringify(dataJsonOb);
+              $.ajax({
+                  url:"../product/CreateUpdateProduct_post",
+                  data:{
+                      "id":pId,
+                      "datajson":dataJsonStr
+                  },
+                  success:function(data){
+                      if(data==1){
+                          alert("创建成功");
+                      }else{
+                          alert("创建失败");
+                      }
+                  },
+                  error:function(){
+                      alert("ajax error");
+                  },
+                  async: false,//设置为同步
+                  dataType:"json",
+                  type:"post"
+              })
+          }
+
+          for(var i = 10;i<=100;i++){
+              var pName= "青春必选·时尚活力V领T恤"+i;
+              var pId="0"+i;
+              var pPrice=10*i;
+              var pImgsrc=i+".jpg";
+              var pCount=Math.floor(Math.random()*300);
+              var pLocate = "北京";
+              var pdate = "2016/09/07";
+
+              var dataJsonOb={
+                  "id":pId,
+                  "name":pName,
+                  "price":pPrice,
+                  "imgSrc":pImgsrc,
+                  "count":pCount,
+                  "from":pLocate,
+                  "date":pdate
+              }
+              var dataJsonStr=JSON.stringify(dataJsonOb);
+              $.ajax({
+                  url:"../product/CreateUpdateProduct_post",
+                  data:{
+                      "id":pId,
+                      "datajson":dataJsonStr
+                  },
+                  success:function(data){
+                      if(data==1){
+                          alert("创建成功");
+                      }else{
+                          alert("创建失败");
+                      }
+                  },
+                  error:function(){
+                      alert("ajax error");
+                  },
+//                  async: false,//设置为同步
+                  dataType:"json",
+                  type:"post"
+              })
+          }
+      }
+
+    </script>
+</div>
+</body>
+</html>

@@ -1,0 +1,784 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>YOHO！有货网</title>
+    <link rel="stylesheet" href="scss/index.css">
+    <link rel="stylesheet" href="scss/public.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/normalize.css" />
+    <link rel="stylesheet" type="text/css" href="css/default.css">
+    <link rel="stylesheet" href="assets/css/sangarSlider.css" type="text/css" media="all">
+    <link rel="stylesheet" href="assets/themes/default/default.css" type="text/css" media="all">
+    <link rel="stylesheet" href="assets/css/demo.css" type="text/css" media="all">
+    <!--[if IE]>
+    <script src="http://libs.useso.com/js/html5shiv/3.7/html5shiv.min.js"></script>
+
+    <![endif]-->
+    <!--<script src="js/bootstrap.js"></script>-->
+    <script src = "js/jquery-3.1.0.js"></script>
+    <script src = "js/index.js"></script>
+    <script src = "js/common/public.js"></script>
+
+</head>
+<body>
+    <div class = "top">
+        <a href = "service.html">潮流</a>
+    </div>
+    <div class = "top">
+        <a href = "service.html">潮流</a>
+    </div>
+    <div class = "header-box">
+        <div class = "htop">
+            <div class="hleft left">YOHO!BUY有货</div>
+            <ul class="hright right clear">
+                <li id = "user"><a href="login.html">[登录]</a><a href = "reg.html">[注册]</a></li>
+                <li><a href="">My有货</a></li>
+                <li><a href="">我的订单</a></li>
+                <li><a href="">我的收藏</a></li>
+                <li><a href="">消息</a></li>
+                <li><a href="">手机版</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class = "container-header clear">
+        <ul class = "lnav left clear">
+            <li><a href="index.html" class = "active"><span>男生</span>BOYS</a></li>
+            <li><a href=""><span>女生</span>GIRLS</a></li>
+            <li><a href=""><span>潮童</span>KIDS</a></li>
+            <li><a href=""><span>创意生活</span>LIFE STYLE</a></li>
+        </ul>
+        <div class ="logo left">
+            <h1><a href="index.html">有货网</a></h1>
+        </div>
+        <div class ="search-box left">
+            <div class="search">
+                <div class="search-in">
+                    <form>
+                        <input type="text" id = "keyword">
+                        <input type="button" class="search-btn"  id = "searchBtn" value = "">
+                    </form>
+                </div>
+            </div>
+            <div class="shopcar">
+                <a href="shopcar.html">
+                    <span class="iconfont "></span>
+                    <span class="goods-num-tip">0</span>
+                </a>
+                <div class="mini-cart-wrapper"><div class="empty-cart"><h3>您的购物车暂无商品</h3></div></div>
+            </div>
+        </div>
+    </div>
+    <div class = "container-nav">
+        <ul class="navlist clear">
+            <li><a href="">新品到着</a></li>
+            <li><a href="">品牌一览</a></li>
+            <li><a href="">服饰</a></li>
+            <li><a href="">鞋履</a></li>
+            <li><a href="">包袋</a></li>
+            <li><a href="">配饰·其他</a></li>
+            <li><a href="">领券中心</a></li>
+            <li><a href="">逛</a></li>
+            <li><a href="">SALE</a></li>
+        </ul>
+    </div>
+    <div class = "container-banner">
+        <div class='sangar-slideshow-container' id='sangar-example'>
+            <div class='sangar-content-wrapper' style='display:none;'>
+                <div class='sangar-content'><img src='img/banner1.jpg' /></div>
+                <div class='sangar-content'><img src='img/banner2.jpg' /></div>
+                <div class='sangar-content'><img src='img/banner3.jpg' /></div>
+                <div class='sangar-content'><img src='img/banner4.jpg' /></div>
+                <div class='sangar-content'><img src='img/banner5.jpg' /></div>
+                <div class='sangar-content'><img src='img/banner6.jpg' /></div>
+                <div class='sangar-content'><img src='img/banner7.jpg' /></div>
+                <div class='sangar-content'><img src='img/banner8.jpg' /></div>
+            </div>
+        </div>
+    </div>
+
+    <div class = "container-show">
+        <div class = "hot">
+            <h2>人气单品</h2>
+            <a href = "" class = "more">MORE</a>
+            <div class = "shoplist">
+                <ul class = "shop clear">
+                    <li><a href="details.html"><img src="img/shop1.jpg" alt=""></a></li>
+                    <li class="big"><a href=""><img src="img/shop2.jpg" alt=""></a></li>
+                    <li><a href=""><img src="img/shop3.jpg" alt=""></a></li>
+                    <li><a href=""><img src="img/shop4.jpg" alt=""></a></li>
+                    <li><a href=""><img src="img/shop5.jpg" alt=""></a></li>
+                    <li><a href=""><img src="img/shop6.jpg" alt=""></a></li>
+                    <li><a href=""><img src="img/shop7.jpg" alt=""></a></li>
+                    <li><a href=""><img src="img/shop8.jpg" alt=""></a></li>
+                    <li><a href=""><img src="img/shop9.jpg" alt=""></a></li>
+                    <li class="big"><a href=""><img src="img/shop10.jpg" alt=""></a></li>
+                </ul>
+                <div class = "shopdown">
+                    <a href=""><img src="img/shop11.jpg" alt=""></a>
+                </div>
+            </div>
+        </div>
+        <div class="optimization clear">
+            <h2>优选品牌</h2>
+            <div class="optimization-show">
+                <div class="unslider clear">
+                    <ul>
+                        <li>
+                            <a href="javascript:;">
+                                <img src="img/optimization1.jpg" alt="">
+                            </a>
+                            <a href="javascript:;">
+                                <img src="img/optimization2.jpg" alt="">
+                            </a>
+                            <a href="javascript:;">
+                                <img src="img/optimization3.jpg" alt="" style="margin:0">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">
+                                <img src="img/optimization4.jpg" alt="">
+                            </a>
+                            <a href="javascript:;">
+                                <img src="img/optimization5.jpg" alt="">
+                            </a>
+                            <a href="javascript:;">
+                                <img src="img/optimization6.jpg" alt=""  style="margin:0">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">
+                                <img src="img/optimization7.jpg" alt="">
+                            </a>
+                            <a href="javascript:;">
+                                <img src="img/optimization8.jpg" alt="">
+                            </a>
+                            <a href="javascript:;">
+                                <img src="img/optimization9.jpg" alt=""  style="margin:0">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">
+                                <img src="img/optimization1.jpg" alt="">
+                            </a>
+                            <a href="javascript:;">
+                                <img src="img/optimization2.jpg" alt="">
+                            </a>
+                            <a href="javascript:;">
+                                <img src="img/optimization3.jpg" alt="" style="margin:0">
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="optimization-switch">
+                        <a class="prev" href="javascript:;"><span class="iconfont"><</span></a>
+                        <a class="next" href="javascript:;"><span class="iconfont">></span></a>
+                    </div>
+                </div>
+                <div class="unslider-b">
+                    <ul>
+                        <li>
+                            <a href="javascript:;">
+                                <img src="img/unslider1.jpg" alt="" class="img1">
+                                <img src="img/unsliders1.jpg" alt="" class="img2">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">
+                                <img src="img/unslider2.jpg" alt="" class="img1">
+                                <img src="img/unsliders2.jpg" alt="" class="img2">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">
+                                <img src="img/unslider3.jpg" alt="" class="img1">
+                                <img src="img/unsliders3.jpg" alt="" class="img2">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">
+                                <img src="img/unslider4.jpg" alt="" class="img1">
+                                <img src="img/unsliders4.jpg" alt="" class="img2">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">
+                                <img src="img/unslider5.jpg" alt="" class="img1">
+                                <img src="img/unsliders5.jpg" alt="" class="img2">
+                            </a>
+                        </li>
+                        <li style="margin-right:0;" class="check_unslider">
+                            <span class="check_unslider_l"><</span>
+                            <span class="check_unslider_r">></span>
+                        </li>
+                        <li>
+                            <a href="javascript:;">
+                                <img src="img/unslider6.jpg" alt="" class="img1">
+                                <img src="img/unsliders6.jpg" alt="" class="img2">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">
+                                <img src="img/unslider7.jpg" alt="" class="img1">
+                                <img src="img/unsliders7.jpg" alt="" class="img2">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">
+                                <img src="img/unslider8.jpg" alt="" class="img1">
+                                <img src="img/unsliders8.jpg" alt="" class="img2">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">
+                                <img src="img/unslider9.jpg" alt="" class="img1">
+                                <img src="img/unsliders9.jpg" alt="" class="img2">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">
+                                <img src="img/unslider10.jpg" alt="" class="img1">
+                                <img src="img/unsliders10.jpg" alt="" class="img2">
+                            </a>
+                        </li>
+                        <li style="margin-right:0;">
+                            <a href="javascript:;">
+                                <img src="img/unslider11.jpg" alt="" class="img1">
+                                <img src="img/unsliders11.jpg" alt="" class="img2">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">
+                                <img src="img/unslider12.jpg" alt="" class="img1">
+                                <img src="img/unsliders12.jpg" alt="" class="img2">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">
+                                <img src="img/unslider13.jpg" alt="" class="img1">
+                                <img src="img/unsliders13.jpg" alt="" class="img2">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">
+                                <img src="img/unslider14.jpg" alt="" class="img1">
+                                <img src="img/unsliders14.jpg" alt="" class="img2">
+
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">
+                                <img src="img/unslider15.jpg" alt="" class="img1">
+                                <img src="img/unsliders15.jpg" alt="" class="img2">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">
+                                <img src="img/unslider16.jpg" alt="" class="img1">
+                                <img src="img/unsliders16.jpg" alt="" class="img2">
+                            </a>
+                        </li>
+                        <li class="unslider-more">
+                            <a href="javascript:;">MORE > </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!--最新速报-->
+        <div class="news clear">
+            <h2>最新速报</h2>
+            <div class="news-ul-box">
+                <ul class="news-ul">
+                    <li class="news_ul_li">
+                        <a href="javascript:;">
+                            <img src="img/news1.jpg" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:;">
+                            <img src="img/news2.jpg" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:;">
+                            <img src="img/news3.jpg" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:;">
+                            <img src="img/news4.jpg" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:;">
+                            <img src="img/news5.jpg" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:;">
+                            <img src="img/news6.jpg" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:;">
+                            <img src="img/news7.jpg" alt="">
+                        </a>
+                    </li>
+                </ul>
+                <div class="last-item">
+                    <a href="javascript:;">
+                        <img src="img/news8.jpg" alt="">
+                    </a>
+                </div>
+            </div>
+            <div class="advert1">
+                <a href="javascript:;">
+                    <img style="display: block;" src="img/advert2.jpg">
+                </a>
+            </div>
+        </div>
+        <!--潮流上装-->
+        <div class="fashion clear">
+            <h2>潮流上装</h2>
+            <div class="fashion_body clear">
+                <div class="fashion_nav">
+                    <div class="fashion_nav_t1">
+                        <a href="javascript:;" class="fashion_nav_t1_a1">
+                            <img src="img/fashion1.jpg" alt="">
+                        </a>
+                        <a href="javascript:;" class="fashion_nav_t1_a2">
+                            <img src="img/fashion2.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="fashion_nav_t2">
+                        <a href="Javascript:;">T恤</a>
+                        <a href="Javascript:;">衬衫</a>
+                        <a href="Javascript:;">卫衣</a>
+                        <a href="Javascript:;">POLO</a>
+                        <a href="Javascript:;">西装</a>
+                        <a href="Javascript:;">背心</a>
+                        <a href="Javascript:;">简约有型</a>
+                        <a href="Javascript:;">运动先锋</a>
+                        <a href="Javascript:;">街头原宿</a>
+                        <a href="Javascript:;">英伦学院</a>
+                        <a href="Javascript:;"></a>
+                        <a href="Javascript:;"></a>
+                    </div>
+                </div>
+                <div class="fashionshow">
+                    <ul>
+                        <li><a href="javascript:;"><img src="img/fashion3.jpg" alt=""></a></li>
+                        <li><a href="javascript:;"><img src="img/fashion4.jpg" alt=""></a></li>
+                        <li><a href="javascript:;"><img src="img/fashion5.jpg" alt=""></a></li>
+                        <li><a href="javascript:;"><img src="img/fashion6.jpg" alt=""></a></li>
+                        <li><a href="javascript:;"><img src="img/fashion7.jpg" alt=""></a></li>
+                        <li><a href="javascript:;"><img src="img/fashion8.jpg" alt=""></a></li>
+                        <li><a href="javascript:;"><img src="img/fashion9.jpg" alt=""></a></li>
+                        <li><a href="javascript:;"><img src="img/fashion10.jpg" alt=""></a></li>
+                    </ul>
+                </div>
+
+            </div>
+            <div class="fashion_bottom clear">
+                <ul>
+                    <li style="margin:0;"><a href="javascript:;"><img src="img/fashion11.jpg" alt=""></a></li>
+                    <li><a href="javascript:;"><img src="img/fashion12.jpg" alt=""></a></li>
+                    <li><a href="javascript:;"><img src="img/fashion13.jpg" alt=""></a></li>
+                    <li><a href="javascript:;"><img src="img/fashion14.jpg" alt=""></a></li>
+                    <li><a href="javascript:;"><img src="img/fashion15.jpg" alt=""></a></li>
+                </ul>
+            </div>
+        </div>
+        <!--潮流下装-->
+        <div class="fashion clear">
+            <h2>潮流下装</h2>
+            <div class="fashion_body clear">
+                <div class="fashion_nav">
+                    <div class="fashion_nav_t1">
+                        <a href="javascript:;" class="fashion_nav_t1_a1">
+                            <img src="img/fashions1.jpg" alt="">
+                        </a>
+                        <a href="javascript:;" class="fashion_nav_t1_a2">
+                            <img src="img/fashions2.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="fashion_nav_t2">
+                        <a href="Javascript:;">休闲裤</a>
+                        <a href="Javascript:;">牛仔裤</a>
+                        <a href="Javascript:;">短裤</a>
+                        <a href="Javascript:;">运动裤</a>
+                        <a href="Javascript:;">九分裤</a>
+                        <a href="Javascript:;">束口裤</a>
+                        <a href="Javascript:;">工装裤</a>
+                        <a href="Javascript:;">直筒裤</a>
+                        <a href="Javascript:;">紧身裤</a>
+                        <a href="Javascript:;">哈伦裤</a>
+                        <a href="Javascript:;"></a>
+                        <a href="Javascript:;"></a>
+                    </div>
+                </div>
+                <div class="fashionshow">
+                    <ul>
+                        <li><a href="javascript:;"><img src="img/fashions3.jpg" alt=""></a></li>
+                        <li><a href="javascript:;"><img src="img/fashions4.jpg" alt=""></a></li>
+                        <li><a href="javascript:;"><img src="img/fashions5.jpg" alt=""></a></li>
+                        <li><a href="javascript:;"><img src="img/fashions6.jpg" alt=""></a></li>
+                        <li><a href="javascript:;"><img src="img/fashions7.jpg" alt=""></a></li>
+                        <li><a href="javascript:;"><img src="img/fashions8.jpg" alt=""></a></li>
+                        <li><a href="javascript:;"><img src="img/fashions9.jpg" alt=""></a></li>
+                        <li><a href="javascript:;"><img src="img/fashions10.jpg" alt=""></a></li>
+                    </ul>
+                </div>
+
+            </div>
+            <div class="fashion_bottom clear">
+                <ul>
+                    <li style="margin:0;"><a href="javascript:;"><img src="img/fashions11.jpg" alt=""></a></li>
+                    <li><a href="javascript:;"><img src="img/fashions12.jpg" alt=""></a></li>
+                    <li><a href="javascript:;"><img src="img/fashions13.jpg" alt=""></a></li>
+                    <li><a href="javascript:;"><img src="img/fashions14.jpg" alt=""></a></li>
+                    <li><a href="javascript:;"><img src="img/fashions15.jpg" alt=""></a></li>
+                </ul>
+            </div>
+        </div>
+        <!--时尚鞋子-->
+        <div class="fashion clear">
+            <div class="floor-header clear">
+                <h2 class="floor-title">时尚鞋履</h2>
+            </div>
+            <div class="fashion_body clearfix">
+                <div class="fashion_nav">
+                    <div class="fashion_nav_t1">
+                        <a href="javascript:;" class="fashion_nav_t1_a1">
+                            <img src="img/xie1.jpg" alt="">
+                        </a>
+                        <a href="javascript:;" class="fashion_nav_t1_a2">
+                            <img src="img/xie2.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="fashion_nav_t2">
+                        <a href="Javascript:;">休闲鞋</a>
+                        <a href="Javascript:;">复古跑鞋</a>
+                        <a href="Javascript:;">时装鞋</a>
+                        <a href="Javascript:;">凉鞋</a>
+                        <a href="Javascript:;">板鞋</a>
+                        <a href="Javascript:;">帆布鞋</a>
+                        <a href="Javascript:;">FOSS</a>
+                        <a href="Javascript:;">DC</a>
+                        <a href="Javascript:;">PUMA</a>
+                        <a href="Javascript:;">VANS</a>
+                        <a href="Javascript:;">lvyboi</a>
+                        <a href="Javascript:;">conversr</a>
+                    </div>
+                </div>
+                <div class="fashionshow">
+                    <ul>
+                        <li><a href="javascript:;"><img src="img/xie3.jpg" alt=""></a></li>
+                        <li><a href="javascript:;"><img src="img/xie4.jpg" alt=""></a></li>
+                        <li><a href="javascript:;"><img src="img/xie5.jpg" alt=""></a></li>
+                        <li><a href="javascript:;"><img src="img/xie6.jpg" alt=""></a></li>
+                        <li><a href="javascript:;"><img src="img/xie7.jpg" alt=""></a></li>
+                        <li><a href="javascript:;"><img src="img/xie8.jpg" alt=""></a></li>
+                        <li><a href="javascript:;"><img src="img/xie9.jpg" alt=""></a></li>
+                        <li><a href="javascript:;"><img src="img/xie10.jpg" alt=""></a></li>
+                    </ul>
+                </div>
+
+            </div>
+            <div class="fashion_bottom clearfix">
+                <ul>
+                    <li style="margin:0;"><a href="javascript:;"><img src="img/xie11.jpg" alt=""></a></li>
+                    <li><a href="javascript:;"><img src="img/xie12.jpg" alt=""></a></li>
+                    <li><a href="javascript:;"><img src="img/xie13.jpg" alt=""></a></li>
+                    <li><a href="javascript:;"><img src="img/xie14.jpg" alt=""></a></li>
+                    <li><a href="javascript:;"><img src="img/xie15.jpg" alt=""></a></li>
+                </ul>
+            </div>
+        </div>
+        <!--动态加载-->
+        <div class = "ajaxshoplist">
+            <h2>最新商品</h2>
+            <ul id = "ajaxshop" class = "clear">
+
+            </ul>
+            <div class = "addmore"><a href="javascript:;"  id = "addmore">加载更多商品</a></div>
+        </div>
+    </div>
+    <div class = "bottom-box">
+        <div class="bottom">
+            <div class="index_foot">
+                <dl class="center-content clearfix">
+                    <dd>
+                        <div class="foot-panel">
+                            <div class="title">
+                                <div class="title-line"></div>
+                                <div class="text">
+                                    <span>有货SERVICES</span>
+                                </div>
+                            </div>
+                            <div id="foot-services">
+                                <ul class="two-dim clearfix">
+                                    <li class="left">
+                                        <img class="dim-img lazy" src="img/foot1.png">
+                                        <p>YOHO!BUY有货</p>
+                                    </li>
+                                    <li class="left">
+                                        <img class="dim-img lazy" src="img/foot2.png">
+                                        <p>微信</p>
+                                    </li>
+                                    <li class="left">
+                                        <img class="dim-img lazy" src="img/foot3.png">
+                                        <p>微博</p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </dd>
+                    <dd>
+                        <div id="feed-back-box-list" class="foot-panel">
+                            <div class="title">
+                                <div class="title-line"></div>
+                                <div class="text">
+                                    <span>意见反馈</span>
+                                </div>
+                            </div>
+                            <ul class="vote clearfix">
+                                <li class="">
+                                    <form class="feed-back-form" action="#">
+                                        <div>您喜欢有货的新版吗?</div>
+                                        <div class="vote-item clearfix">
+                                            <p>
+                                                <input type="radio" name="solution" >非常喜欢
+                                            </p>
+                                            <p>
+                                                <input type="radio" name="solution">喜欢
+                                            </p>
+                                            <p>
+                                                <input type="radio" name="solution">一般般
+                                            </p>
+                                            <p>
+                                                <input type="radio" name="solution">不喜欢
+                                            </p>
+                                            <p>
+                                                <input type="radio" name="solution">非常不喜欢
+                                            </p>
+                                        </div>
+                                        <div>
+                                            <span class="feed-back-btn button">提交</span>
+                                        </div>
+                                    </form>
+                                </li>
+                                <li class="hide">
+                                    <form class="feed-back-form" action="#">
+                                        <div>您可以方便的找到想查看的内容吗？</div>
+                                        <div class="vote-item clearfix">
+                                            <p>
+                                                <input type="radio" name="solution" >非常方便
+                                            </p>
+                                            <p>
+                                                <input type="radio" name="solution">方便
+                                            </p>
+                                            <p>
+                                                <input type="radio" name="solution">一般般
+                                            </p>
+                                            <p>
+                                                <input type="radio" name="solution">不方便
+                                            </p>
+                                            <p>
+                                                <input type="radio" name="solution">非常不方便
+                                            </p>
+                                        </div>
+                                        <div>
+                                            <span class="feed-back-btn button">提交</span>
+                                        </div>
+                                    </form>
+                                </li>
+                                <li class="hide">
+                                    <form class="feed-back-form" action="#">
+                                        <div>您对新版还有哪些意见或建议？</div>
+                                        <textarea name="answer" id="feedback-answer" class="feedback-answer"></textarea>
+                                        <div>
+                                            <span class="feed-back-btn button">提交</span>
+                                        </div>
+                                    </form>
+                                </li>
+                            </ul>
+                        </div>
+                        <p id="feed-back-page" class="item-nav item_nav">
+                            <span class="iconfont"></span>
+                            <span class="iconfont cur"></span>
+                            <span class="iconfont"></span>
+                        </p>
+                    </dd>
+                    <dd class="last">
+                        <div class="foot-panel">
+                            <div class="title">
+                                <div class="title-line"></div>
+                                <div class="text">
+                                    <span>更多 YOHO!产品</span>
+                                </div>
+                            </div>
+                            <div id="foot-mobile">
+                                <ul class="mobile clearfix">
+                                    <li>
+                                        <a href="javascript:;">
+                                            <img class="dim-img lazy" src="img/mars1.png" style="display: block;">
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:;">
+                                            <img class="dim-img lazy" src="img/show.png" style="display: block;">
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:;">
+                                            <img class="dim-img lazy" src="img/yoho.png" style="display: block;">
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </dd>
+                </dl>
+            </div>
+        </div>
+    </div>
+    <!--footer-->
+    <div class="container-footer">
+        <div class="footer">
+            <div class = "ftop">
+                <ul class = "fico left">
+                    <li class = "iconfont"><i>&#xe632;</i><span>100%</span>品牌正品</li>
+                    <li class = "iconfont"><i>&#xe609;</i><span>七天</span>无理由退货</li>
+                    <li class = "iconfont"><i>&#xe64a;</i><span>便捷</span><a href = "">在线客服</a></li>
+                </ul>
+            </div>
+            <div class="fmiddle clear">
+                <dl>
+                    <dt>新手指南</dt>
+                    <dd><a href="">注册登录</a></dd>
+                    <dd><a href="">选购商品</a></dd>
+                    <dd><a href="">订单支付</a></dd>
+                    <dd><a href="">收货退款</a></dd>
+                </dl>
+                <dl>
+                    <dt>新手指南</dt>
+                    <dd><a href="">注册登录</a></dd>
+                    <dd><a href="">选购商品</a></dd>
+                    <dd><a href="">订单支付</a></dd>
+                    <dd><a href="">收货退款</a></dd>
+                </dl>
+                <dl>
+                    <dt>新手指南</dt>
+                    <dd><a href="">注册登录</a></dd>
+                    <dd><a href="">选购商品</a></dd>
+                    <dd><a href="">订单支付</a></dd>
+                    <dd><a href="">收货退款</a></dd>
+                </dl>
+                <dl>
+                    <dt>新手指南</dt>
+                    <dd><a href="">注册登录</a></dd>
+                    <dd><a href="">选购商品</a></dd>
+                    <dd><a href="">订单支付</a></dd>
+                    <dd><a href="">收货退款</a></dd>
+                </dl>
+                <dl>
+                    <dt>新手指南</dt>
+                    <dd><a href="">注册登录</a></dd>
+                    <dd><a href="">选购商品</a></dd>
+                    <dd><a href="">订单支付</a></dd>
+                    <dd><a href="">收货退款</a></dd>
+                </dl>
+                <dl>
+                    <dt>新手指南</dt>
+                    <dd><a href="">注册登录</a></dd>
+                    <dd><a href="">选购商品</a></dd>
+                    <dd><a href="">订单支付</a></dd>
+                    <dd><a href="">收货退款</a></dd>
+                </dl>
+                <dl class = "last">
+                    <dt>新手指南</dt>
+                    <dd><a href="">注册登录</a></dd>
+                    <dd><a href="">选购商品</a></dd>
+                    <dd><a href="">订单支付</a></dd>
+                    <dd><a href="">收货退款</a></dd>
+                </dl>
+            </div>
+            <div class="fbottom">
+                <div class="center-content clearfix">
+                    <div class="leftimg">
+                        <a href="javascript:;">
+                            <img src="img/credit-flag3.png">
+                        </a>
+                        <a href="javascript:;">
+                            <img src="img/isc2.png">
+                        </a>
+                    </div>
+                    <div class="about_us">
+                        <p>
+                            <a href="javascript:;">返回首页</a>
+                            <span>|</span>
+                            <a href="javascript:;">YOHO!BUY 有货</a>
+                            <span>|</span>
+                            <a href="javascript:;">新力传媒</a>
+                            <span>|</span>
+                            <a href="javascript:;">联系我们</a>
+                            <span>|</span>
+                            <a href="javascript:;">商家入驻</a>
+                            <span>|</span>
+                            <a href="javascript:;">隐私条款</a>
+                            <span>|</span>
+                            <a href="javascript:;">友情链接</a>
+                        </p>
+                        <p>
+                            CopyRight © 2007-2016 南京新与力文化传播有限公司
+                            <a class="rbg6" href="javascript:;">苏ICP备09011225号</a>
+                            NewPower Co. 版权所有 经营许可证编号：苏B2-20120395
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="assets/js/jquery.js"></script>
+    <script type="text/javascript" src="assets/js/jquery.touchSwipe.min.js"></script>
+    <script type="text/javascript" src="assets/js/imagesloaded.min.js"></script>
+    <!-- jQuery Sangar Slider -->
+    <script type="text/javascript" src="assets/js/sangarSlider/sangarBaseClass.js"></script>
+    <script type="text/javascript" src="assets/js/sangarSlider/sangarSetupLayout.js"></script>
+    <script type="text/javascript" src="assets/js/sangarSlider/sangarSizeAndScale.js"></script>
+    <script type="text/javascript" src="assets/js/sangarSlider/sangarShift.js"></script>
+    <script type="text/javascript" src="assets/js/sangarSlider/sangarSetupBulletNav.js"></script>
+    <script type="text/javascript" src="assets/js/sangarSlider/sangarSetupNavigation.js"></script>
+    <script type="text/javascript" src="assets/js/sangarSlider/sangarSetupSwipeTouch.js"></script>
+    <script type="text/javascript" src="assets/js/sangarSlider/sangarSetupTimer.js"></script>
+    <script type="text/javascript" src="assets/js/sangarSlider/sangarBeforeAfter.js"></script>
+    <script type="text/javascript" src="assets/js/sangarSlider/sangarLock.js"></script>
+    <script type="text/javascript" src="assets/js/sangarSlider/sangarResponsiveClass.js"></script>
+    <script type="text/javascript" src="assets/js/sangarSlider/sangarResetSlider.js"></script>
+    <script type="text/javascript" src="assets/js/sangarSlider/sangarTextbox.js"></script>
+    <script type="text/javascript" src="assets/js/sangarSlider.js"></script>
+    <script type='text/javascript'>
+        jQuery(document).ready(function($) {
+            /**
+             * identifier variable must be unique ID
+             */
+            var sangar = $('#sangar-example').sangarSlider({
+                timer :  500, // true or false to have the timer
+                pagination : 'content-horizontal', // bullet, content, none
+                paginationContent : [ "img/bannersite1.jpg", "img/bannersite2.jpg", "img/bannersite3.jpg", "img/bannersite4.jpg","img/bannersite5.jpg","img/bannersite6.jpg","img/bannersite7.jpg","img/bannersite8.jpg"], // can be text, image, or something
+                paginationContentType : 'image', // text, image
+                paginationContentWidth : 138, // pagination content width in pixel
+                paginationImageHeight : 54, // pagination image height
+                width : 1150, // slideshow width
+                height : 500, // slideshow height
+                fixedHeight: true,
+                scaleSlide : true // slider will scale to the container size
+            });
+        })
+    </script>
+
+</body>
+</html>

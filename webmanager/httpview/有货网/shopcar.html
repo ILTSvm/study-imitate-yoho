@@ -1,0 +1,273 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>购物车 | YOHO!BUY 有货 | 年轻人潮流购物中心,中国潮流购物风向标,官方授权正品保证</title>
+	<link rel="stylesheet" href="css/shopcar.css">
+    <link rel="stylesheet" href="scss/public.css">
+	<script src="js/jquery-3.1.0.js"></script>
+    <script src="js/jquery.cookie.js"></script>
+	<script src="js/shopcar.js"></script>
+</head>
+<body>
+    <div class = "header-box">
+        <div class = "htop">
+            <div class="hleft left">YOHO!BUY有货</div>
+            <ul class="hright right clear">
+                <li id = "user"><a href="login.html">[登录]</a><a href = "reg.html">[注册]</a></li>
+                <li><a href="">My有货</a></li>
+                <li><a href="">我的订单</a></li>
+                <li><a href="">我的收藏</a></li>
+                <li><a href="">消息</a></li>
+                <li><a href="">手机版</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class = "container-header clear">
+        <ul class = "lnav left clear">
+            <li><a href="index.html" class = "active"><span>男生</span>BOYS</a></li>
+            <li><a href=""><span>女生</span>GIRLS</a></li>
+            <li><a href=""><span>潮童</span>KIDS</a></li>
+            <li><a href=""><span>创意生活</span>LIFE STYLE</a></li>
+        </ul>
+        <div class ="logo left">
+            <h1><a href="index.html">有货网</a></h1>
+        </div>
+        <div class ="search-box left">
+            <div class="search">
+                <div class="search-in">
+                    <form action="">
+                        <input type="text">
+                        <button class="search-btn" value = ""></button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class = "container-nav">
+        <ul class="navlist clear">
+            <li><a href="">新品到着</a></li>
+            <li><a href="">品牌一览</a></li>
+            <li><a href="">服饰</a></li>
+            <li><a href="">鞋履</a></li>
+            <li><a href="">包袋</a></li>
+            <li><a href="">配饰·其他</a></li>
+            <li><a href="">领券中心</a></li>
+            <li><a href="">逛</a></li>
+            <li><a href="">SALE</a></li>
+        </ul>
+    </div>
+    <div class="shop_car_wrap clearfix">
+    	<div class="order_car">
+    		<div class="order_title">
+    			<div class="logo_car"></div>
+    			<ul>
+	                <li class="first" style="text-align: left;color:#333;">查看购物车
+						<div class="square"></div>
+	                </li>
+	                <li>填写订单</li>
+	                <li style="text-align: right;">付款，完成购买</li>
+	            </ul>
+    		</div>
+    		<!-- 温馨提示 -->
+    		<div class="cartnew-tips">
+                <div class="tipsbox" id="tipsbox">
+                    <a href="javascript:void(0);" class="btn_close" title="关闭"></a>
+                    <strong>温馨提示：</strong>亲爱的顾客，您还没有 <a href="" class="a_eu">登录</a> 哦，所有商品价格、活动信息以登录后显示为准.
+                </div>
+            </div>
+			<div class="order_pay">
+				<!-- 购物车 -->
+				<div class="pay-wapper">
+                    <table  id="car_warp">
+                        <thead>
+                        <tr>
+                            <th>商品信息</th>
+                            <th>单价（元）</th>
+                            <th>返有货币</th>
+                            <th>数量</th>
+                            <th>小计（元）</th>
+                            <th>操作</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                    <!--商品详情-->
+                        <tr>
+                            <td colspan="6" class="cart-product-num">
+                                <input class="" type="checkbox" name="" id="" checked="checked">普通商品(<span class="goods_num">1</span>)
+                            </td>
+                        </tr>
+
+                        <!-- 商品列表模板 -->
+                        <!-- <tr >
+                            <td>
+                                <div class="pay-pro">
+                                    <input class="cart-item-check " type="checkbox" name="" id="" checked="">
+                                    <a class="pay-pro-icon " href="javascript:;">
+                                        <img src="//img13.static.yhbimg.com/goodsimg/2015/12/30/03/0294957cbe2bd18beb7f972d28e308aba2.jpg?imageMogr2/thumbnail/60x60/extent/60x60/background/d2hpdGU=/position/center/quality/80">
+                                    </a>
+                                    <p class="pay-pro-info">
+                                    	<a href="">lilbetter 羊角扣装饰毛呢大衣<br></a><span>颜色：灰色 尺码：L</span>
+                                    </p>
+                                </div>
+                            </td>
+                            <td><span class="productPrice">¥418.00</span>
+                            </td>
+                            <td>0个</td>
+                            <td class="add_num">
+                                <span class="minus"></span>
+                                <input type="text" value="1" readonly="readonly">
+                                <span class="plus"></span>
+                            </td>
+                            <td class="price">
+                                ¥418.00
+                            </td>
+                            <td class="cart-operation">
+                                <a href="javascript:;" class="cart-del-btn"><span class="del_btn">删除</span><span class="b"></span></a>
+                            	<a href="javascript:;" class="cart-remove-btn"><span class="a">移入收藏</span><span class="b"></span></a>
+                        	</td>
+                        </tr> -->
+                        </tbody>
+                    </table>
+                </div>
+                <!-- 免运费 -->
+                <div class="salesPromotion">
+                    <p><b>免运费</b>满¥399免运费</p>
+                    <span><i></i>已参与</span>
+                </div>
+                <!-- 批量操作 -->
+				<div class="cartnew-sum">
+                    <div class="left batch_div">
+                        <input type="checkbox" id="checkAllGoods" checked="checked">
+                        <span>全选</span>
+                        <a class="delAll" href="javascript:void(0);">批量删除</a>
+                        <a class="removeAll" href="javascript:void(0);">批量移入收藏夹</a>
+                    </div>
+                    <div class="right">
+                        <p class="sum">商品总价（¥0.00）- 活动（¥0.00）= 商品金额总计（¥0.00）</p>
+                        <p>
+                            <a href="javascript:void(0);" class="yoho-coin"></a>
+                            共返有货币：0个　商品总价（不含运费）：
+                            <strong>¥0.00</strong> 元
+                        </p>
+                    </div>
+                </div>
+                <!-- 结算 -->
+                <div class="cartnew-submit" id="payDiv">
+                    <a href="index.html" class="btn_continue">再逛逛</a>
+                    <a href="javascript:void(0);" class="btn_account" style="">去结算</a>
+                </div>
+
+			</div>
+
+    	</div>
+    </div>
+    <div class="yoho-dialog confirm-dialog">
+        <span class="close">X</span>
+        <div class="content">
+            <div><span></span>删除商品</div>
+            <p>确定从购物车中删除此商品？</p>
+        </div>
+        <div class="btns">
+            <span id="dialog-confirm-sure" class="btn confirm-sure">确定</span>
+            <span id="dialog-confirm-cancel" class="btn confirm-cancel">取消</span>
+        </div>
+    </div>
+    <div class="container-footer">
+        <div class="footer">
+            <div class = "ftop">
+                <ul class = "fico left">
+                    <li class = "iconfont"><i>&#xe632;</i><span>100%</span>品牌正品</li>
+                    <li class = "iconfont"><i>&#xe609;</i><span>七天</span>无理由退货</li>
+                    <li class = "iconfont"><i>&#xe64a;</i><span>便捷</span><a href = "">在线客服</a></li>
+                </ul>
+            </div>
+            <div class="fmiddle clear">
+                <dl>
+                    <dt>新手指南</dt>
+                    <dd><a href="">注册登录</a></dd>
+                    <dd><a href="">选购商品</a></dd>
+                    <dd><a href="">订单支付</a></dd>
+                    <dd><a href="">收货退款</a></dd>
+                </dl>
+                <dl>
+                    <dt>新手指南</dt>
+                    <dd><a href="">注册登录</a></dd>
+                    <dd><a href="">选购商品</a></dd>
+                    <dd><a href="">订单支付</a></dd>
+                    <dd><a href="">收货退款</a></dd>
+                </dl>
+                <dl>
+                    <dt>新手指南</dt>
+                    <dd><a href="">注册登录</a></dd>
+                    <dd><a href="">选购商品</a></dd>
+                    <dd><a href="">订单支付</a></dd>
+                    <dd><a href="">收货退款</a></dd>
+                </dl>
+                <dl>
+                    <dt>新手指南</dt>
+                    <dd><a href="">注册登录</a></dd>
+                    <dd><a href="">选购商品</a></dd>
+                    <dd><a href="">订单支付</a></dd>
+                    <dd><a href="">收货退款</a></dd>
+                </dl>
+                <dl>
+                    <dt>新手指南</dt>
+                    <dd><a href="">注册登录</a></dd>
+                    <dd><a href="">选购商品</a></dd>
+                    <dd><a href="">订单支付</a></dd>
+                    <dd><a href="">收货退款</a></dd>
+                </dl>
+                <dl>
+                    <dt>新手指南</dt>
+                    <dd><a href="">注册登录</a></dd>
+                    <dd><a href="">选购商品</a></dd>
+                    <dd><a href="">订单支付</a></dd>
+                    <dd><a href="">收货退款</a></dd>
+                </dl>
+                <dl class = "last">
+                    <dt>新手指南</dt>
+                    <dd><a href="">注册登录</a></dd>
+                    <dd><a href="">选购商品</a></dd>
+                    <dd><a href="">订单支付</a></dd>
+                    <dd><a href="">收货退款</a></dd>
+                </dl>
+            </div>
+            <div class="fbottom">
+                <div class="center-content clearfix">
+                    <div class="leftimg">
+                        <a href="javascript:;">
+                            <img src="img/credit-flag3.png">
+                        </a>
+                        <a href="javascript:;">
+                            <img src="img/isc2.png">
+                        </a>
+                    </div>
+                    <div class="about_us">
+                        <p>
+                            <a href="javascript:;">返回首页</a>
+                            <span>|</span>
+                            <a href="javascript:;">YOHO!BUY 有货</a>
+                            <span>|</span>
+                            <a href="javascript:;">新力传媒</a>
+                            <span>|</span>
+                            <a href="javascript:;">联系我们</a>
+                            <span>|</span>
+                            <a href="javascript:;">商家入驻</a>
+                            <span>|</span>
+                            <a href="javascript:;">隐私条款</a>
+                            <span>|</span>
+                            <a href="javascript:;">友情链接</a>
+                        </p>
+                        <p>
+                            CopyRight © 2007-2016 南京新与力文化传播有限公司
+                            <a class="rbg6" href="javascript:;">苏ICP备09011225号</a>
+                            NewPower Co. 版权所有 经营许可证编号：苏B2-20120395
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

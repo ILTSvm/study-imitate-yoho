@@ -1,0 +1,282 @@
+b,img,body,p,ul,dl,dd,ol,li,h1,h3,h4,h2,h5,h6,fieldset,legend{margin:0;padding:0;}
+body{font:12px/24px "微软雅黑";}
+ul,li{list-style:none;}
+a{text-decoration:none; color:#000;/*display:block;*/padding:0;margin:0;}
+img{border:0;/*display:block;*/}
+h1,h2,h3,h4,h5,h6,b,strong{font-weight:normal;}
+em,i,b{font-style:normal;}
+body,html{
+	height:100%;
+	width:100%;
+	/*overflow-x:hidden;*/
+}
+
+.clear:after{
+	content:".";
+	clear:both;
+	display:block;
+	height:0;
+	overflow:hidden;
+	visibility:hidden;
+}
+.clear{
+	zoom:1;
+}
+.left{
+	float:left;
+}
+.right{
+	float:right;
+}
+.box{
+	min-width:1280px;
+	height:100%;
+	overflow-x:hidden;
+}
+.header{
+	/*position:fixed;*/
+	width:100%;
+	height:88px;
+	background:#7ab5e9;
+	border-bottom:2px solid #265fa6;
+	z-index:999;
+	min-width:1280px;
+}
+.header-box{
+	width:100%;
+	height:90px;
+
+}
+.leftpart{
+	background:url("../img/logo_e.png")no-repeat center  center;
+	height:88px;
+	width:456px;
+}
+.leftpart p{
+	height:88px;
+	line-height:88px;
+	padding-left:200px;
+	color: #1f1f1f;
+	font-size:34px;
+	font-weight:bold;
+}
+.login{
+	width:266px;
+	background: #fff url("../img/bg.png") no-repeat 116px -258px;
+	margin-left:374px;
+}
+
+.login span{
+	padding-left:20px;
+	margin-left:30px;
+	float:left;
+	background:url("../img/bg.png") no-repeat -284px 4px;
+	
+}
+.login p{
+	height:25px;
+	width:10px;
+	float:left;
+	background:url("../img/bg.png") no-repeat -143px -209px;
+}
+.login a{
+	margin-right:50px;
+	padding-left:20px;
+	float:right;
+	font-size:12px;
+	background:url("../img/bg.png") no-repeat -284px -138px;
+}
+.login i{
+	background:#fff;
+}
+.nav li{
+	float:left;
+	position:relative;
+}
+.nav li a{
+	margin-top:8px;
+	display:block;
+	width:95px;
+	height:26px;
+	background:#7ab5e9;
+	/*background:url("../img/bg.png") no-repeat 0 -298px;*/
+	padding-top:31px;
+	text-align:center;
+	font-weight:bold;
+	color:#fff;
+	font-size:14px;
+	/*line-height:56px;*/
+}
+.nav li a:hover{
+		background:url("../img/bg.png") no-repeat 0 -298px;
+		
+}
+.nav a span{
+	display:block;
+	width:95px;
+	height:2px;
+	background:#265fa6;
+}
+.nav a:hover span{
+	display:none;
+}
+.nav li a i{
+	background:url("../img/bg.png") no-repeat;
+	position:absolute;
+	top:13px;
+	left:33px;
+	height:28px;
+	width:28px;
+}
+.nav .date1 a i{
+	background-position:-496px 0px;
+}
+.nav .date1 a:hover i{
+	background-position:-496px -70px;
+}
+
+.nav .date2 a i{
+	background-position:-496px -142px;
+}
+.nav .date2 a:hover i{
+	background-position:-496px -212px;
+}
+
+.nav .date3 a i{
+	background-position:-496px -284px;
+}
+.nav .date3 a:hover i{
+	background-position:-496px -354px;
+}
+
+.nav .date4 a i{
+	background-position:-496px -426px;
+}
+.nav .date4 a:hover i{
+	background-position:-496px -495px;
+}
+
+.nav .date5 a i{
+	background-position:-496px -568px;
+}
+.nav .date5 a:hover i{
+	background-position:-496px -638px;
+}
+
+.nav .date6 a i{
+	background-position:-496px -710px;
+}
+.nav .date6 a:hover i{
+	background-position:-496px -780px;
+}
+
+.nav .date7 a i{
+	background-position:-496px -852px;
+}
+.nav .date7 a:hover i{
+	background-position:-496px -921px;
+}
+/*22222222222222222222222*/
+.container{
+	width:100%;
+	height:100%;
+	min-width:1280px;
+	/*overflow:hidden;*/
+}
+.leftnav{
+	position:relative;
+	width:198px;
+	height:100%;
+	float:left;
+	background:#417ec8;
+}
+.left-slid{
+	display:block;
+	width:100%;
+	height:30px;
+	background:url(../img/bg.png) no-repeat 4px -71px;
+}
+.leftnav dd a,.leftnav dt a{
+	display:block;
+}
+.leftnav dt a{
+	width:198px;
+	height:34px;
+	line-height:34px;
+	font-size:14px;
+	color:#fff;
+	background:url(../img/bg.png) no-repeat 100px 100px;
+}
+.leftnav dt a:hover{
+	color:#000;
+	background:url(../img/bg.png) no-repeat 1px 0px;
+}
+.leftnav dt a span{
+	padding-left:40px;
+	display:inline-block;
+	width:100%;
+	height:34px;
+	background:url(../img/bg.png) no-repeat -693px -701px;
+}
+.leftnav .imp a span{
+	background-position:-693px -767px;
+}
+.leftnav .device a span{
+	background-position:-693px -841px;
+}
+.leftnav dl{
+	/*height:34px;*/
+	/*overflow:hidden;*/
+	background:url(../img/bg.png) no-repeat 0 -709px;
+}
+.leftnav dl dd{
+	display:none;
+}
+.leftnav dd a{
+	font-size:12px;
+	color:#adddf6;
+	padding-left:50px;
+	background:url(../img/bg.png) no-repeat -259px -49px;
+}
+.leftnav dd a:hover{
+	
+}
+.center{
+	float:left;
+	width:10px;
+	height:100%;
+	background:url("../img/right_bj.jpg");
+	position:relative;
+}
+.center a{
+	display:block;
+	height:41px;
+	width:9px;
+	background:url(../img/bg.png) no-repeat -849px 0px;
+	position:absolute;
+	left:0;
+	top:50%;
+	margin-top:-20px;
+	
+}
+
+
+.rightcontent{
+	overflow:hidden;
+	float:left;
+	margin-left:8px;
+	height:100%;
+	width:83%;
+}
+.rightcontent a{
+
+}
+.positionNow{
+	width:100%;
+	border-bottom:1px solid #ccc;
+}
+iframe{
+	border:0;
+	width:100%;
+	height:100%;
+}

@@ -1,0 +1,94 @@
+		
+		.tablebox{
+			width:1000px;
+			min-width:800px;
+			margin:0 auto;
+			/*color: #F00;*/
+		}
+
+		.tablebox .show{
+			display:table;
+			/*color:red;*/
+		}
+		.tablebox .hide{
+			display:none;
+		}
+		.add {
+			background:url(../img/bg.png) -700px -425px;
+			border-right:1px solid #ccc;
+			padding-right:15px;
+		}
+		.sub{
+			background:url(../img/bg.png) -700px -496px;
+		}
+		
+		input{
+			margin:6px;
+		}
+		.search{
+			background:url(../img/t.jpg) no-repeat 1000px center;
+		}
+		.search span{
+			font-weight:bold;
+			margin-right:10px;
+		}
+		.search .btn{
+			/*background:url(../img/);*/
+		}
+		table{
+				/*border:1px solid #0047e1;*/
+				width:1000px;
+				border-collapse:collapse;
+				margin-bottom:10px;
+			}
+
+			.tit{
+				font-weight:800;
+				/*display:block;*/
+				height:33px;
+				/*width:1px;*/
+				width:1000px;
+				line-height:33px;
+				background:url(../img/pbj.jpg);
+				text-align:right;
+				/*border:1px solid #d6d6d6;*/
+			}
+			.tit a{
+				height:16px;
+				width:60px;
+				line-height:16px;
+				display:inline-block;
+				margin-right:10px;
+			}
+			td{
+				text-align:center;
+			}
+			th{
+				/*background:#0047e1;*/
+				background:url(../img/pbj.jpg);
+				color:#000;
+				font-size:16px;
+				font-weight:bold;
+			}
+			tr:nth-child(odd){
+				background:url(../img/pbj.jpg);
+			}
+			.pagelist a{
+				float:left;
+				height:16px;
+				line-height:16px;
+				margin-right:3px;
+			}
+			.pagelist a:hover span{
+				background:#eeeeee;
+			}
+			.pagelist span{
+				display:block;
+				text-align:center;
+				height:16px;
+				width:16px;
+				line-height:16px;
+				background:url(../img/pagebj.jpg);
+				border:1px solid #a3a3a3;
+
+			}

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Yoho!buy</title>
+		<link rel  = "stylesheet" style = "text/css" href = "css/style.css">
+		<script src="js/jquery-3.1.0.js"></script>
+		<script src = "js/service.js"></script>
+	</head>
+	<body>
+		<div class = "box">
+			<div class = "header clear">
+				<div class = "leftpart left">
+
+				</div>
+				<div class = "rightpart right">
+					<div class = "login clear">
+						<p></p>
+						<span>欢迎您：<i>召唤师</i>!</span>
+						<a href = "">退出</a>
+					</div>
+					<ul class = "nav clear">
+						<li class = "date1"><a href=""><i></i>用户信息<span></span></a></li>
+						<li class = "date2"><a href=""><i></i>商品管理<span></span></a></li>
+						<li class = "date3"><a href=""><i></i>账单汇总<span></span></a></li>
+						<li class = "date4"><a href=""><i></i>收支明细<span></span></a></li>
+						<li class = "date5"><a href=""><i></i>系统设置<span></span></a></li>
+						<li class = "date6"><a href=""><i></i>编辑<span></span></a></li>
+						<li class = "date7"><a href=""><i></i>账号管理<span></span></a></li>
+					</ul>
+				</div>
+			</div>
+			<!--<div class = "header-box"></div>-->
+			<!--222222222222222222222222222222222222-->
+			<div class = "container clear">
+				<div class = "leftnav left" id = "leftnav">
+					<a href = "" class = "left-slid" id = "left-slid"></a>
+					<dl id = "mgshop">
+						<dt><a href = "javascript:void(0);" ><span>管理商品</span></a></dt>
+						<dd><a href="addshop.html" target = "jianli">添加商品</a></dd>
+						<dd><a href="changeshop.html" target = "jianli">修改商品</a></dd>
+						<dd><a href="deleteshop.html" target = "jianli">删除商品</a></dd>
+
+					</dl>
+					<dl id = "money">
+						<dt class = "imp"><a href = "javascript:void(0);"><span>收款·退款</span></a></dt>
+						<dd><a href="">收款设置</a></dd>
+						<dd><a href="">退款设置</a></dd>
+						<dd><a href="">退款处理</a></dd>
+					</dl>
+					<dl id = "user">
+						<dt class = "device"><a href = "javascript:void(0);"><span>用户管理</span></a></dt>
+						<dd><a href="">账号申诉处理</a></dd>
+						<dd><a href="">违规账号处理</a></dd>
+						<dd><a href="">异常账号处理</a></dd>
+						<dd><a href="">信用度处理</a></dd>
+					</dl>
+				</div>
+				<div class = "center">
+					<a href = "javascript:void(0)" id = "center-a"></a>
+				</div>
+				<div class = "right rightcontent">
+					<div class = "positionNow">
+						<img src = "img/home.jpg">
+						<span>当前位置&gt;&gt;</span>
+						<a href = "">商品管理</a>
+						<i>&gt;&gt;</i>
+						<a href = "">商品信息</a>
+						<i>&gt;&gt;</i>
+						<span>上架商品</span>
+					</div>
+					<iframe src = "./welcome.html" name = "jianli">
+					</iframe>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
